@@ -1,0 +1,18 @@
+{
+  "name": "Image Tools — Convert & Background Remover",
+  "short_name": "Image Tools",
+  "description": "Free browser-based image converter and background remover. Private, on-device, works offline.",
+  "start_url": "./convert.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#070b14",
+  "theme_color": "#3b6cf6",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

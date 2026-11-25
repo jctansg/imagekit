@@ -2,6 +2,13 @@
 
 Free, private, browser-based image utilities. Everything runs on your device — no sign-ups, no watermarks.
 
+## Live site
+
+No install needed — use the tools directly on GitHub Pages:
+
+- [Image Converter](https://jctansg.github.io/imagekit/convert.html)
+- [Background Remover](https://jctansg.github.io/imagekit/background.html)
+
 ## Tools
 
 | Tool | Description |
@@ -27,13 +34,12 @@ Open http://localhost:8000/convert.html or http://localhost:8000/background.html
 
 Note: the background remover downloads an AI model (~tens of MB) on first use, then caches it.
 
-## Deploy to GitHub Pages
+## Self-host (optional)
 
-1. Push this folder to a new repository.
-2. Enable **Pages** (Deploy from branch → `main` / root).
-3. Available at `https://<user>.github.io/<repo>/convert.html` and `.../background.html`.
+These are plain static files — clone the repo and serve the folder with any static server, or deploy it to any static host (Netlify, Vercel, Cloudflare Pages). No build step required.
 
-Any static host works (Netlify, Vercel, Cloudflare Pages). CDN dependencies load from jsDelivr, so an internet connection is needed on first load.
+CDN dependencies load from jsDelivr, so an internet connection is needed on first load.
+
 
 ## Dependencies
 
